@@ -1,0 +1,20 @@
+.quarto-title-block .quarto-title-banner {
+  background-image: url("images/pharmetheus_logo_mark_white.png");
+  background-size: 150px;
+  background-position: top 20px left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-origin: content-box;
+}
+
+body {
+  font-family: "Times New Roman";
+  color: #777777;
+  background-color: #ffffff;
+}
+
+code-block {
+  font-family: "Times New Roman";
+  color: #777777;
+  background-color: #ffffff;
+}
