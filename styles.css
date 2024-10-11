@@ -6,7 +6,17 @@
   padding-left: 100px;
   padding-right: 100px;
   background-origin: content-box;
-  height: 120px;
+  
+    /* Adjust height based on screen width */
+    @media (max-width: 380px) { /* Mobile */
+        height: 120px;
+    }
+    @media (min-width: 381px) and (max-width: 991px) { /* iPad */
+        height: 60px;
+    }
+    @media (min-width: 992px) { /* Computer */
+        height: 120px;
+    }
 }
 
 body {
