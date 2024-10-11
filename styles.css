@@ -1,10 +1,12 @@
 .quarto-title-block .quarto-title-banner {
   background-image: url("images/pharmetheus_logo_mark_white.png");
-  background-size: 120px;
-  background-position: top;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  padding-left: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-origin: content-box;
+  height: 120px;
 }
 
 body {
